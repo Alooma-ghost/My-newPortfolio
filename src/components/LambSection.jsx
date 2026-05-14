@@ -1,4 +1,4 @@
-const Lamp = ({ toggleLight }) => {
+const LambSection = ({ toggleLight }) => {
   return (
     <div className="lamp-container" onClick={toggleLight} style={{
       height: '100vh',
@@ -37,4 +37,4 @@ const Lamp = ({ toggleLight }) => {
   );
 };
 
-export default Lamp;
+export default LambSection;

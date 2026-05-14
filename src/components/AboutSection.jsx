@@ -1,4 +1,4 @@
-const About = () => {
+const AboutSection = () => {
   return (
     <section id="about" className="section">
       <h2>📖 About Me</h2>
@@ -32,4 +32,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutSection;

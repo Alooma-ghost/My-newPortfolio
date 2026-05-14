@@ -1,4 +1,4 @@
-const Projects = () => {
+const ProjectsSection = () => {
   return (
     <section id="projects" className="section">
       <h2>Projects</h2>
@@ -12,4 +12,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default ProjectsSection;

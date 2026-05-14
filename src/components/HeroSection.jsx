@@ -1,4 +1,4 @@
-const Hero = () => {
+const HeroSection = () => {
   const scrollToProjects = () => {
     const projectsSection = document.getElementById("projects");
     if (projectsSection) {
@@ -15,4 +15,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroSection;

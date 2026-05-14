@@ -1,4 +1,4 @@
-const Navbar = () => {
+const NavbarSection = () => {
   return (
     <nav className="navbar">
       <h2>✨ AloomaDev</h2>
@@ -11,4 +11,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavbarSection;
