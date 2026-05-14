@@ -1,4 +1,8 @@
-
+import { CiInboxOut } from "react-icons/ci";
+import { FaLinkedin } from "react-icons/fa6";
+import { MdOutlineEmail } from "react-icons/md";
+import { FaGithub } from "react-icons/fa";
+import { BsTwitterX } from "react-icons/bs";
 const ContactSection = () => {
   const emailAddress = "olabodeidrisoluwasegun@email.com";
   
@@ -9,21 +13,21 @@ const ContactSection = () => {
 
   return (
     <section id="contact" className="section">
-      <h2>📬 Let's Connect</h2>
+      <h2> <CiInboxOut /> Let's Connect</h2>
       <div className="contact-card">
         <p style={{ marginBottom: '18px' }}>
           Got a project in mind? or just want to chat about tech?
         </p>
-        <p>📧 Email:  
+        <p> <MdOutlineEmail/> Email:  
           <a href="olabodeidrisoluwasegun@gmail.com" onClick={handleEmailClick} style={{ marginLeft: '6px' }}>
             {emailAddress}
           </a>
         </p>
        
         <div style={{ marginTop: '20px', display: 'flex', gap: '15px', justifyContent: 'center' }}>
-          <a href="https://github.com/Alooma-ghost" style={{ fontSize: '1.5rem' }}>🐙 GitHub</a>
-          <a href="https://x.com/alomaghost?s=21passed" style={{ fontSize: '1.5rem' }}>🐦 Twitter</a>
-          <a href="https://www.linkedin.com/in/olabode-idris-alooma-10309340b/" style={{fontSize: '1.5rem' }}>linkedin</a>
+          <a href="https://github.com/Alooma-ghost" style={{ fontSize: '1.5rem' }}> <FaGithub/> GitHub</a>
+          <a href="https://x.com/alomaghost?s=21passed" style={{ fontSize: '1.5rem' }}> <BsTwitterX/> Twitter</a>
+          <a href="https://www.linkedin.com/in/olabode-idris-alooma-10309340b/" style={{fontSize: '1.5rem' }}> <FaLinkedin/> LinkedIn</a>
         </div>
       </div>
     </section>
