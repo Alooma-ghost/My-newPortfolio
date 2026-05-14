@@ -1,5 +1,5 @@
 
-const Contact = () => {
+const ContactSection = () => {
   const emailAddress = "olabodeidrisoluwasegun@email.com";
   
   const handleEmailClick = (e) => {
@@ -30,4 +30,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactSection;
