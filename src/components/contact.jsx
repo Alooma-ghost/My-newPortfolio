@@ -23,6 +23,7 @@ const Contact = () => {
         <div style={{ marginTop: '20px', display: 'flex', gap: '15px', justifyContent: 'center' }}>
           <a href="https://github.com/Alooma-ghost" style={{ fontSize: '1.5rem' }}>🐙 GitHub</a>
           <a href="https://x.com/alomaghost?s=21passed" style={{ fontSize: '1.5rem' }}>🐦 Twitter</a>
+          <a href="https://www.linkedin.com/in/olabode-idris-alooma-10309340b/" style={{fontSize: '1.5rem'}}>linkedin</a>
         </div>
       </div>
     </section>
