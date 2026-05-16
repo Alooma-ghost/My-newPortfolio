@@ -4,7 +4,7 @@ const AboutSection = () => {
       <h2>📖 About Me</h2>
       <div className="about-text">
         <p>
-          I'm Idris Olabode — a passionate frontend developer with over 3 years of experience crafting 
+          I'm Idris Olabode — a passionate frontend developer with over 1 year of experience crafting 
           modern, responsive, and user-friendly web applications. I specialize in React.js and modern 
           JavaScript (ES6+), turning design ideas into interactive realities.
         </p>
